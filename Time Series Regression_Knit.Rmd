@@ -162,7 +162,7 @@ for(m in 1:M){
 }
 ```
 
-### Monte Carlo Simulation: 2nd method - using AR(1) formula manually
+### Monte Carlo Simulation: 2nd method - coding AR(1) formula manually
 
 The second MC method involves coding the AR(1) formula manually instead of `` `r "\u0060arima.sim()\u0060"` ``. Remember, from earlier, the AR(1) formula is $X_t = αX_{t-1} + ϵ_t$. Apart from that, I follow the same steps as with the first MC method. Theoretically, my two MC methods are the same, but there will be slight fluctuations just to the random distribution generators `` `r "\u0060runif()\u0060"` `` and `` `r "\u0060rnorm()\u0060"` ``. This second method is simply for pedagogical purposes.
 
